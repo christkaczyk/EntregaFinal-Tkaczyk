@@ -363,8 +363,13 @@ footer{
 }
 
 footer h2{
+    font-size: 1.2rem;
     color: #f8f9fd;
-    font-weight: 300;
+    font-weight: 100;
+}
+
+.fa-heart{
+    color: #bf38e8;
 }
 
 /* Media Queries */
