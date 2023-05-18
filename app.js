@@ -63,7 +63,7 @@ function loadJSON(){
                     <div class = "product-content">
                         <h3 class = "product-name">${product.name}</h3>
                         <span class = "product-category">${product.category}</span>
-                        <p class = "product-price">$${product.price}</p>
+                        <p class = "product-price">$ ${product.price}</p>
                     </div>
                 </div>
             `;
@@ -148,7 +148,7 @@ function loadCart(){
 function findCartInfo(){
     let products = getProductFromStorage();
     let total = products.reduce((acc, product) => {
-        let price = parseFloat(product.price.substr(1)); // removing dollar sign
+        let price = parseFloat(product.price.substr(1)); // remueve el signo $
         return acc += price;
     }, 0); // agrega todos los precios
 

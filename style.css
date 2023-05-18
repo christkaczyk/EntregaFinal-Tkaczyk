@@ -69,33 +69,11 @@ header .container{
     background: var(--ghost-white);
     z-index: 999;
 }
-.navbar-brand{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #000;
-    justify-self: flex-start;
-}
 
 .show-navbar{
     height: 204px; 
 }
 
-.navbar-collapse ul{
-    display: flex;
-
-    list-style-type: none;
-}
-.navbar-collapse li{
-    margin: 0.7rem 0;
-    margin-right: 10px;
-    margin-left: 10px;
-    letter-spacing: 2px;
-    text-align: center;
-}
-.navbar-collapse a{
-    font-size: 1.15rem;
-    opacity: 0.7;
-}
 .cart{
     justify-self: flex-end;
     padding-right: 8px;
@@ -131,7 +109,7 @@ header .container{
     overflow-y: scroll;
     background: #fff;
     width: 100%;
-    height: 600px;
+    height: 25rem;
     top: 100%;
     left: 0;
     right: 0;
@@ -171,7 +149,7 @@ header .container{
     right: 15px;
     top: 15px;
     padding: 0.05rem 0.45rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     background: #9e18c7;
     border: none;
     color: #fff;
@@ -257,6 +235,7 @@ header .container{
 .products{
     padding: 6rem 0;
 }
+
 .products h2{
     text-align: center;
     font-size: 2.2rem;
@@ -265,16 +244,19 @@ header .container{
     color: #000;
     margin-bottom: 3rem;
 }
+
 .product-item{
     margin: 1rem 0;
 }
+
 .product-img{
-    background: var(--ghost-white);
+    background: #f6f6f6;
     padding: 3rem 0;
     height: 350px;
     overflow: hidden;
     position: relative;
 }
+
 .product-img img{
     position: absolute;
     top: 50%;
@@ -292,13 +274,16 @@ header .container{
     -ms-transition: var(--trans);
     -o-transition: var(--trans);
 }
+
 .product-img:hover img{
     opacity: 0.8;
 }
+
 .product-content{
     padding: 1.6rem 0;
     text-align: center;
 }
+
 .add-to-cart-btn{
     position: absolute;
     top: 50%;
