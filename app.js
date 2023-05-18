@@ -56,8 +56,8 @@ function loadJSON(){
                     <div class = "product-img">
                         <img src = "${product.imgSrc}" alt = "product image">
                         <button onclick="showAlert()" type="button" class = "add-to-cart-btn">
-                            <i class = "fas fa-shopping-cart"></i>Agregar al carrito
-                        </button>
+                            <i class = "fas fa-shopping-cart"></i>Agregar
+                            </button>
                     </div>
 
                     <div class = "product-content">
