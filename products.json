@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Remera básica",
+        "category" : "Remeras",
+        "price" : "3.999",
+        "imgSrc" : "images/01.png"
+    },
+    {
+        "name" : "Buzo simple",
+        "category" : "Buzos",
+        "price" : "9.999",
+        "imgSrc" : "images/02.png"
+    },
+    {
+        "name" : "Remera militar",
+        "category" : "Remeras",
+        "price" : "4.499",
+        "imgSrc" : "images/03.png"
+    },
+    {
+        "name" : "Remera cintura redonda",
+        "category" : "Remeras",
+        "price" : "4.499",
+        "imgSrc" : "images/04.png"
+    }
+]

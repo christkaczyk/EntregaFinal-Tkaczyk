@@ -1,13 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>GRAPHIC-HERO | Estampamos tus ideas...</title>
-</head>
-<body>
-    <script src="js/app.js"></script>
-</body>
+    <title>GRAPHIC HERO | Estampamos tus ideas...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- header  -->
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">
+            <img src="images/graphichero_png.png" alt="logo graphic hero">
+          </a>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            <div class = "cart-container">
+              <div class = "cart-list">
+                <!-- item -->
+                <!-- <div class = "cart-item">
+                  <img src = "images/01.png" alt = "product image">
+                  <div class = "cart-item-info">
+                    <h3 class = "cart-item-name">Remera básica</h3>
+                    <span class = "cart-item-category">Remeras</span>
+                    <span class = "cart-item-price">$3.999</span>
+                  </div>
+                  <button type="button" class="cart-item-del-btn">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div> -->
+                <!-- item  -->
+              </div>
+              <div class = "cart-total">
+                <h3>Total: $</h3>
+                <span id = "cart-total-value"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- navbar -->
+      </div>
+    </header>
+    <!-- header -->
+    <!-- productos  -->
+    <section class = "products">
+      <div class = "container">
+        <h2>CATÁLOGO</h2>
+        <div class = "product-list">
+          <!-- item -->
+          <!-- <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/02.png" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Agregar al carrito
+              </button>
+            </div>
+            <div class = "product-content">
+              <h3 class = "product-name">Buzo simple</h3>
+              <span class = "product-category">Buzos</span>
+              <p class = "product-price">$9.999</p>
+            </div>
+          </div> -->
+          <!-- item -->
+        </div>
+      </div>
+    </section>
+    <!-- productos -->
+    <!-- footer -->
+    <footer>
+      <div class = "container">
+        <h2>Diseñado por Chris Tkaczyk</h2>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="app.js"></script>
+    <!-- Sweet Alert cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
 </html>
